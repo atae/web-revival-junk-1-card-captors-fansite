@@ -5,8 +5,9 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-image: url("Cardcaptor_Sakura_BD_volume_1_cover.jpg");
     background-repeat: repeat;
-
 }
+
+
 
 .content {
     background-color: rgba(255,255,255, 0.75);
@@ -26,6 +27,7 @@ h1.secret {
 h2 {
     text-align: center;
 }
+
 audio {
     margin: 0 auto;
     width: 50%;
@@ -34,7 +36,34 @@ audio {
 .audio-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: .75em;
 }
+@keyframes breath {
+    0%   { width: 75%; height: 75%;}
+    50% { width: 100%; height: 100%;}
+    100% { width: 75%; height: 75%;}
+}
+
+.audio-container > .img-container {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    flex-direction: column;
+}
+
+.audio-container > .img-container > img {
+    height: 100%;
+    margin: 0 auto;
+    animation: breath 3s linear infinite;
+}
+
+
 
 .secret > p {
     color: grey;
