@@ -23,6 +23,19 @@ h1.secret {
     color: fuchsia;
 }
 
+h2 {
+    text-align: center;
+}
+audio {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+}
+
 .secret > p {
     color: grey;
 }
@@ -49,6 +62,7 @@ hr {
     white-space: nowrap;
     text-transform: uppercase;
     color: pink;
+    background: aqua;
 }
 
 .secret-link {
