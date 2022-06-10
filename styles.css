@@ -16,7 +16,7 @@ body {
 }
 h1 {
     text-align: center;
-    font-size: 4vw;
+    font-size: 4em;
     color: green;
 }
 
@@ -58,8 +58,8 @@ audio {
 }
 
 .audio-container > .img-container {
-    width: 50%;
-    height: 400px;
+    max-width: 50vw;
+    height: 500px;
     margin: 0 auto;
     padding-top: 32px;
     display: flex;
