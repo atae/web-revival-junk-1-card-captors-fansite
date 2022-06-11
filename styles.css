@@ -113,3 +113,15 @@ hr {
 p {
     font-size: 2em;
 }
+
+.navigation {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav > h2 {
+    color: darkblue;
+    font-size: 48px;
+}
